@@ -73,7 +73,7 @@ class MovieApp {
 }
 
 const movieAppObject = new MovieApp();
-movieAppObject.attachSearchEventListener
+movieAppObject.attachSearchEventListener();
 
 const movieObject = new Movie(
     "Guardians of the Galaxies Vol. 2",
